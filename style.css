@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10%10);
+    grid-template-rows: 50px 75px 75px 200px;
+      
+}
+#vert {
+    grid-column:1/8;
+    grid-row: 1;
+    background-color: rgb(31, 240, 31);
+}
+#bleu {
+background-color: rgb(38, 99, 219);
+grid-row:1;
+grid-column: 8/10;
+}
+#rouge {
+    background-color: rgb(219, 24, 24);
+grid-column: 1/4;
+grid-row: 2  /4;
+}
+#marronClair {
+    background-color: rgba(238, 160, 16, 0.788);
+    grid-column:4/7;
+    grid-row: 2/3;
+
+}
+#gris {
+    background-color: rgba(73, 50, 50, 0.829);
+    grid-row: 2;
+    grid-column: 7/10;
+
+}
+#jauneFonce {
+    background-color: rgb(196, 149, 21);
+    grid-row:3;
+    grid-column: 4/6;
+
+}
+#turquoise {
+    grid-row: 3;
+    grid-column: 6/8;
+    background-color: rgb(25, 184, 184);
+}
+#marron {
+    grid-row: 3;
+grid-column: 8/10;
+background-color: rgb(194, 18, 18);
+}
+#marine {
+    grid-row: 4;
+    background-color: blue;
+    grid-column: 1/10;
+}
